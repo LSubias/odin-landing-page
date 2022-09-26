@@ -1,0 +1,30 @@
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+  }
+
+  body{
+    display: flex;
+    flex-direction: column;
+   
+  }
+
+.superior{
+    display: flex;
+    flex-direction: row;
+    font-size: 48px;
+    font-weight: extra-bold;
+    justify-content: space-around;
+   background-color: #D0CCD0
+   }
+.examples{
+    background-color: #99B3FF;
+    display: flex;
+    flex-direction: row;
+    justify-content: space-around;
+    align-items: center;
+    padding: 10px;
+    gap: 16px;
+    }
+
