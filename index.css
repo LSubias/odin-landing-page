@@ -6,30 +6,35 @@
 
   body{
     display: flex;
-flex-direction: column;
- font-family: Arial, Helvetica, sans-serif;
-     }
+    flex-direction: column;
+    min-height: 100vh;
+    font-family: Arial, Helvetica, sans-serif;
+    }
   
 
 .header{
     display: flex;
     color: aliceblue;
     flex-direction: row;
+    align-items: center;
+    padding: 25px;
     font-size: 25px;
     font-weight: extra-bold;
     justify-content: space-around;
-   background-color: #363020;
-   }
+   background-color: #00120B;
+      }
 
 
 
-.examples{
+.main{
     display:flex;
     flex-direction: row;
     align-items: center;
     justify-content: space-around;
-    background-color: #605C4E;
+    background-color: #35605A;
     font-style: italic;
+    flex-grow: 1;
+           
    }
 
 
@@ -41,52 +46,60 @@ flex-direction: column;
     justify-content: center;
     text-align: center;
     font-size: 20px;
-    color: #EAFFDA;
+    color: white;
     gap: 8px;
-    flex: 1;
+    
    }
 
 .info img{
     width: 150px;
     height: 150px;
     border-color: #605C4E;
-    border-color: bisque;
     border-radius: 15px;
     padding: 5px;
 }
 
-
 .last{
-display: flex;
-flex-direction: column;
-background-color: #605C4E;
+
+justify-content: center;
+align-items: center;
+text-align: center;
+border-color: #00120B;
+border-radius: 5px;
+background-color: #e5e7eb;
+color: #1f2937;
 font-size: 25px;
-font-style: italic;
-gap: 10px;
-min-height: 30vh;
+font-family: light, italic;
 
 }
 
-.subs{
-display: flex;
-flex-direction: row;
-justify-content: space-between;
-}
-
-
-.last button{
- width:80px;
- height: 50px;
-}
-
-
- footer{
-    flex: 1;
-    display: flex; 
+.ultimo_boton{
+    display: flex;
     flex-direction: row;
-    justify-content: space-between;
-    background-color: #EAFFDA;
-    color: black;
-    font-size: 30px;    
-     
+    justify-content: space-evenly;
+    background-color: #1f2937;
+    margin-left: 350px;
+    margin-right: 350px;
+    margin-top: 4px;
+    margin-bottom: 4px;
+    color: white;
+    font-size: 30px;
+    border-radius: 15px;
 }
+
+button{
+   display: flex;
+   flex-direction: column;
+   justify-content: center;
+   align-content: center;
+
+   }
+
+footer{
+    display: flex;
+    justify-content: center;
+    background-color: #00120B;
+    color: aliceblue;
+    font-size: 20px;
+}
+
