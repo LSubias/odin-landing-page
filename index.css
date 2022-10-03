@@ -17,11 +17,46 @@
     color: aliceblue;
     flex-direction: row;
     align-items: center;
+    justify-content: space-between;
     padding: 25px;
     font-size: 25px;
     font-weight: extra-bold;
     justify-content: space-around;
    background-color: #00120B;
+      }
+
+.header h5{
+    font-weight: 900;
+}
+     
+.below_header{
+    display: flex;
+    justify-content: space-between;
+    color: rgb(68, 98, 124);
+    gap: 15px;
+    font-size: 25px;
+    background-color: #e5e7eb;
+}
+
+.below_header_two{
+display: flex;
+flex-direction: column;
+background-color: #e5e7eb;
+gap: 8px;
+}
+
+
+
+    .image_holder{
+    background-color: #07090c;
+}
+
+.right_links{
+        display: flex;
+        align-items: flex-end;
+        gap: 10px;
+        flex-direction: row;
+        justify-content: flex-end;
       }
 
 
@@ -48,15 +83,17 @@
     font-size: 20px;
     color: white;
     gap: 8px;
+    border-color: #00120B;
+    
     
    }
 
 .info img{
     width: 150px;
     height: 150px;
-    border-color: #605C4E;
-    border-radius: 15px;
     padding: 5px;
+    border: 2px solid #0099CC;
+    border-radius: 10px;
 }
 
 .last{
